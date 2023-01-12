@@ -478,6 +478,10 @@ section#sobre .about {
   display: flex;
   justify-content: space-between;
   gap: 2.5rem;
+  backdrop-filter: blur(200px);
+  text-align: center;
+  padding: 10px;
+  border-radius: 22px;
 }
 
 section#sobre .about h2 {
