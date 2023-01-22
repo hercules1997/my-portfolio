@@ -1088,7 +1088,7 @@ div.highlights {
   position: relative;
   padding: 2em 0;
 }
-
+/*  */
 #cd-timeline::before {
   content: "";
   position: absolute;
@@ -1100,11 +1100,6 @@ div.highlights {
 }
 
 @media only screen and (min-width: 1170px) {
-  #cd-timeline {
-    /* margin-top: 3em;
-    margin-bottom: 3em; */
-  }
-
   #cd-timeline::before {
     /* left: 50%; */
     margin-left: -2px;
