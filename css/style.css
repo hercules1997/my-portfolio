@@ -38,8 +38,9 @@ div.profile figure {
 }
 
 #sobre-mim {
-  width: 60%;
-  margin-right: 20px;
+  width: 100%;
+  padding: 40px;
+  
 }
 
 .profile-light {
@@ -548,7 +549,7 @@ section#sobre .about h2 {
 
 section#sobre .about1 p {
   color: #ffffffc1;
-  font-size: 2rem;
+  font-size: 1.7rem;
   text-align: justify;
   width: 100%;
   line-height: 180%;
