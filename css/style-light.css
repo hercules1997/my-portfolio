@@ -1,18 +1,15 @@
 body.light-mode {
-
-  background-image: linear-gradient(90deg,
-      rgba(233, 233, 233, 0.993) 30%,
-      rgb(175, 175, 175) 70%);
-
+  background-image: linear-gradient(
+    90deg,
+    rgba(233, 233, 233, 0.993) 30%,
+    rgb(175, 175, 175) 70%
+  );
 }
-
-
 
 /* ?MENU DE NAVEGAÇÃO */
 body.light-mode header {
   background-color: transparent;
 }
-
 
 /* ?NOME */
 body.light-mode .banner span {
@@ -37,7 +34,6 @@ body.light-mode .profile img {
 body.light-mode .about {
   background: transparent;
   border: 1px solid rgba(231, 231, 231, 0.979);
-
 }
 
 body.light-mode .about p {
@@ -71,9 +67,11 @@ body.light-mode .menuOpen h2 {
 }
 
 body.light-mode section#skills .skills .container .cards .box {
-  background-image: linear-gradient(90deg,
-      rgba(255, 255, 255, 0.507) 0.2%,
-      rgba(202, 202, 202, 0.61) 100%) !important;
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.507) 0.2%,
+    rgba(202, 202, 202, 0.61) 100%
+  ) !important;
   border: 1px solid rgb(173, 173, 173);
   box-shadow: 0 1px 22px rgba(0, 0, 0, 0.24);
 }
@@ -103,22 +101,16 @@ body.light-mode .profile .profile-light {
   visibility: visible;
 }
 
-
 @media (max-width: 980px) {
   body.light-mode section#sobre .banner .profile-light {
     text-align: center;
+    width: 60% !important;
+  }
+
+  body.light-mode .profile .profile-light {
+    width: 40%;
   }
 }
-
-
-
-
-
-
-
-
-
-
 
 body.light-mode section#contacts .contacts .icons .icon .box {
   background-color: #696969c2;
@@ -136,21 +128,21 @@ body.light-mode section#projects .container .cards-projects .box:hover {
   border: none;
 }
 
-
 body.light-mode .modal .top .info p {
   color: #070707;
 }
 
 body.light-mode .cd-timeline-content {
-  background-image: linear-gradient(90deg,
-      rgba(255, 255, 255, 0.507) 0.2%,
-      rgba(202, 202, 202, 0.61) 100%) !important;
+  background-image: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.507) 0.2%,
+    rgba(202, 202, 202, 0.61) 100%
+  ) !important;
   border: 1px solid rgb(173, 173, 173);
   box-shadow: 0 1px 22px rgba(0, 0, 0, 0.432);
 }
 
 body.light-mode .cd-timeline-content:hover {
-
   box-shadow: 0 1px 18px rgba(0, 0, 0, 0.568);
 }
 
@@ -160,14 +152,15 @@ body.light-mode .cd-timeline-content p {
 
 body.light-mode .cd-timeline-content h4 {
   color: #10364d;
-
-
 }
 
 body.light-mode .links a {
-  background-image: linear-gradient(90deg, #424242 30%,
+  background-image: linear-gradient(
+    90deg,
+    #424242 30%,
 
-      #686868 70%);
+    #686868 70%
+  );
 }
 
 body.light-mode .links a:hover {
@@ -177,13 +170,10 @@ body.light-mode .links a:hover {
 
 /* *Tamanho global */
 
-
 body.light-mode ::-webkit-scrollbar-track {
   background: #c5c4c4ce;
-
 }
 
 body.light-mode ::-webkit-scrollbar-thumb {
   background: #2b2b2ba4;
-
 }

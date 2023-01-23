@@ -1,10 +1,11 @@
+
+
+//? MUDA O TEMA DE DARK PARA LIGTH
 const initLightMode = () => {
-    document.querySelector('input[type="checkbox"]').addEventListener('change', () => {
-        document.body.classList.toggle('light-mode')
-    })
+    document.querySelector('input[type="checkbox"]').addEventListener('change', () => { document.body.classList.toggle('light-mode') })}
 
-}
 
+//? MOVIMENTA AS LETRAS 
 const initTypingAnimation = () => {
 
     const span = document.querySelector('#sobre .banner .intro .title span')
@@ -29,9 +30,7 @@ const initTypingAnimation = () => {
             textToArray.forEach((item, index) => {
                 setTimeout(() => element.innerHTML += item, 45 * index)
             })
-
         }
-
     }
 
     typingAnimation(span)
