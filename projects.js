@@ -111,7 +111,7 @@ const getProjectAll = () => {
             videoSrc: './assets/vid/code-burguer.mp4',
             linkedin: 'https://www.linkedin.com/feed/update/urn:li:activity:7014743674169253888/',
             repository: 'https://github.com/hercules1997/Desafio-Code-Burguer-DevClub',
-            c: 'https://burguer-iota.vercel.app/'
+            site: 'https://burguer-iota.vercel.app/'
         },
 
         //*PROJETO CADASTRO DE USUÁRIOS*//
