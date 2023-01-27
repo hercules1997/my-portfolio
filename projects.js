@@ -129,7 +129,7 @@ const getProjectAll = () => {
             videoSrc: './assets/vid/projeto-react.mp4',
             linkedin: 'https://',
             repository: 'https://github.com/hercules1997/first-react',
-            site: 'https://first-react-eta.vercel.app/'
+            site: 'https://registration-users.netlify.app/'
         },
 
     ];
