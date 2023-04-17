@@ -250,6 +250,22 @@ const renderSkillsSection = () => {
         name: 'Bootstrap',
         src: 'bootstrap'
     },
+    {
+        name: 'Docker',
+        src: 'docker'
+    },
+    {
+        name: 'Postgres',
+        src: 'postgre'
+    },
+    {
+        name: 'MongoDB',
+        src: 'mongo'
+    },
+    {
+        name: 'API',
+        src: 'api'
+    },
 
     ]
 
