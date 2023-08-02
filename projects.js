@@ -130,23 +130,8 @@ const getProjectAll = () => {
             linkedin: 'https://',
             repository: 'https://github.com/hercules1997/first-react',
             site: 'https://registration-users.netlify.app/'
-        },
-        {
-            id: 8,
-            title: 'Novo projeto',
-            date: 'agosto',        
-            description: `afghzafhgfdahgasdfhdfh.`,
-            skil1: `HTML`,
-            skil2: `CSS`,
-            skil3: `ReactJS`,
-            skil4: `NodeJS`,
-            skil5: `GitHub`,
-            miniatura: '',
-            videoSrc: '',
-            linkedin: '',
-            repository: '',
-            site: ''
         }
+
 
     ];
 
