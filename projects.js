@@ -141,12 +141,12 @@ const getProjectAll = () => {
             skil3: `ReactJS`,
             skil4: `NodeJS`,
             skil5: `GitHub`,
-            miniatura: './assets/img/join-user.png',
-            videoSrc: './assets/vid/projeto-react.mp4',
-            linkedin: 'https://',
-            repository: 'https://github.com/hercules1997/first-react',
-            site: 'https://registration-users.netlify.app/'
-        },
+            miniatura: '',
+            videoSrc: '',
+            linkedin: '',
+            repository: '',
+            site: ''
+        }
 
     ];
 
