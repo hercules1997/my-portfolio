@@ -14,7 +14,7 @@ const initTypingAnimation = () => {
     const typingAnimation = (element) => {
 
         if (element == span) {
-            element.innerHTML = 'Hércules C. Andrade'
+            element.innerHTML = 'Hércules Chaves Andrade'
             const textToArray = element.innerHTML.split('')
             element.innerHTML = ''
 
@@ -35,7 +35,7 @@ const initTypingAnimation = () => {
 
     typingAnimation(span)
 
-    setTimeout(() => typingAnimation(span), 9000)
+   
     setTimeout(() => typingAnimation(paragraph), 3500)
 }
 
