@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
+  "scripts": {
+    "start": "node yourFile.js"
+  },
   "repository": "https://github.com/hercules1997/my-portfolio.git",
   "author": "hercules1997 <hercules.chaves.andrade@gmail.com>",
   "license": "MIT"
