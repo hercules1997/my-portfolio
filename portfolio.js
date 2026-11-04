@@ -2,7 +2,7 @@ document.querySelectorAll('[data-filter]').forEach(button => { button.addEventLi
 
 (() => {
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
-  const targets = document.querySelectorAll('.featured, .project-card, .about > div, .stack article, section > h2, #contact > .button');
+  const targets = document.querySelectorAll('.case, .project-card, .about > div, .section-head, .service-list, #contact > h2');
   if ('IntersectionObserver' in window && !reducedMotion.matches) {
     const reveal = new IntersectionObserver(entries => {
       entries.forEach(entry => {
@@ -58,7 +58,7 @@ document.querySelectorAll('[data-filter]').forEach(button => { button.addEventLi
   const dialog = document.querySelector('#project-preview');
   if (!dialog || typeof dialog.showModal !== 'function') return;
   let opener;
-  document.querySelectorAll('.featured .app-preview img').forEach(img => {
+  document.querySelectorAll('.case .app-preview img').forEach(img => {
     const button = document.createElement('button');
     button.type = 'button'; button.className = 'preview-button';
     button.setAttribute('aria-label', 'Ampliar: ' + img.alt);
